@@ -11,7 +11,7 @@
         android:id="@+id/et_source"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="xxx 18678066322 北京市西城区德胜国际中心，B座11层2楼201，龙源数字传媒集团"/>
+        android:text="xxx 8312345678 北京市西城区，B座11层2楼201，数字传媒集团"/>
 
     <Button
         android:id="@+id/button"
