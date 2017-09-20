@@ -48,7 +48,7 @@ public class SpliteActivity extends Activity {
     private EditText addressET;
 
     private List<String> datas = new ArrayList<String>();
-    public String str = "郭建斌 18678066322 北京市西城区德胜国际中心，B座11层2楼201，龙源数字传媒集团";
+    public String str = "xxxx 18345678901 北京市xxx楼，B座11层2楼201，xxxx集团";
     private ClipboardManager clipboard = null;
 
     //词库分词
