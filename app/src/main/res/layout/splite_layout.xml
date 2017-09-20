@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="vertical">-->
+            <!---->
+
+        <!--</LinearLayout>-->
+
+    <!--</ScrollView>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请在以下选择框选择您的信息"
+            android:background="@drawable/selector_button"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+
+    <!--填表-->
+    <!--android:orientation="horizontal"-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.7"
+        android:layout_marginLeft="20dip"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/nameTV"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textSize="13sp"
+                android:textColor="@color/base_color_6"
+                android:text="收件人:"/>
+                <!--android:textColor="#FFF8DC"-->
+
+            <EditText
+                android:id="@+id/nameET"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:textSize="13sp"
+                android:background="@null"
+                android:singleLine="true"
+                android:textColor="@color/base_color_6"
+                android:hint="请选择姓名"/>
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="13sp"
+                android:textColor="@color/base_color_6"
+                android:text="电话:"/>
+
+            <EditText
+                android:id="@+id/phoneET"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:textSize="13sp"
+                android:background="@null"
+                android:singleLine="true"
+                android:textColor="@color/base_color_6"
+                android:hint="请选择手机号"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textSize="13sp"
+                android:textColor="@color/base_color_6"
+                android:text="省:"/>
+
+            <EditText
+                android:id="@+id/provET"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:textSize="13sp"
+                android:background="@null"
+                android:singleLine="true"
+                android:textColor="@color/base_color_6"
+                android:hint="请选择省"/>
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="13sp"
+                android:textColor="@color/base_color_6"
+                android:text="市:"/>
+
+            <EditText
+                android:id="@+id/cityET"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:textSize="13sp"
+                android:background="@null"
+                android:singleLine="true"
+                android:textColor="@color/base_color_6"
+                android:hint="请选择市"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textSize="13sp"
+                android:textColor="@color/base_color_6"
+                android:text="详细地址:"/>
+
+            <EditText
+                android:id="@+id/streetET"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="15"
+                android:textSize="13sp"
+                android:background="@null"
+                android:singleLine="true"
+                android:textColor="@color/base_color_6"
+                android:hint="请选择街道"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textSize="13sp"
+                android:textColor="@color/base_color_6"
+                android:text="收货地址:"/>
+
+            <EditText
+                android:id="@+id/addressET"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="15"
+                android:textSize="13sp"
+                android:background="@null"
+                android:singleLine="true"
+                android:textColor="@color/base_color_6"
+                android:hint="请选择上述地址"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <!--分词-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="3"
+        android:layout_marginLeft="20dip">
+
+        <com.example.xiazhenjie.addressspliteview.splite.FlowlayoutTags
+            android:id="@+id/flt_elective"
+            android:focusable="false"
+            style="@style/FlowlayoutTags.Beauty_Red2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button1"
+            >
+        </com.example.xiazhenjie.addressspliteview.splite.FlowlayoutTags>
+
+    </LinearLayout>
+
+
+    <!--返回-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:gravity="center"
+        android:layout_weight="1">
+
+       <Button
+           android:id="@+id/dismissButton"
+           android:layout_width="40dip"
+           android:layout_height="wrap_content"
+           android:textColor="#FFFFFF"
+           android:gravity="center"
+           android:background="@drawable/selector_button"
+           android:text="X"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
